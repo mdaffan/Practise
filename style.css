@@ -1,6 +1,6 @@
 .topnav{
 	overflow: hidden;
-	background-color: #300;
+	background-color: black;
 	
 }
 .topnav a{
@@ -66,8 +66,65 @@
 .Genre:hover .drop-content {
     display: block;
 }
+.row{
+	float: left;
+	width: auto;
+}
+.column {
+  float: left;
+  width: auto;
+  margin-bottom: 160px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 50%%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+  width: auto;
+
+}
+
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: auto;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
 h1{
 	color: linen;
 	font-family: serif;
 	text-shadow: 2px 2px black;
+}
+h2{
+	color: black;
+	font-family: sans-serif;
+}
+p{
+	width: auto;
+
 }
